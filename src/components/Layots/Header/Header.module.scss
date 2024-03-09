@@ -1,0 +1,11 @@
+.container {
+  padding:10px 10%;
+  background-color: #efefef;
+}
+
+@media (min-width: 250px) and (max-width: 600px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}

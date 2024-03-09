@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+
+  button {
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px ;
+    background-color: #583d8d;
+
+    &.disable {
+      opacity: 50%;
+    }
+  }
+}
+
+@media (min-width: 250px) and (max-width: 600px) {
+  .container {
+    background-color: #d4d4d4;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin: 0 5%;
+    padding: 10px 5px;
+
+
+    p {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .buttons {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        font-size: 16px;
+        padding: 10px 20px;
+      }
+    }
+  }
+}

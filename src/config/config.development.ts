@@ -1,0 +1,7 @@
+export const config = {
+    apiUrl: "http://localhost:3000/api",
+    credentials: {
+        username: "candidate",
+        password: "candidate321",
+    },
+};
